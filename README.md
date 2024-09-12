@@ -1,5 +1,5 @@
 # openCartProductsSelenium
-Selenium tests on openCart demo page(vbox) on register/login/logout/, available products view /addition to wish list, shopping cart, checkout, removal from wish list, submitted order view
+Selenium tests on openCart demo page(vbox) on register/login/logout/, available products view /addition to wish list, shopping cart, checkout, removal from wish list, submitted order view test case scenarios
 
 #Requirements
 1.Java JDK 8 or higher
@@ -9,7 +9,7 @@ Selenium tests on openCart demo page(vbox) on register/login/logout/, available 
 
 #Setup
 1. Clone this repository into IntelliJ(or other IDE) workspace folder (or wherever the project can be launched by IDE
-2. Install openCart demo image provided in the repository into VirtualBox
+2. Install openCart demo image into VirtualBox (download link : "https://drive.google.com/drive/u/2/folders/1TQc9-FQHGkwbzw6UrLfJxBjvvW1Nc6GI")
 3. Assert the image is up and running in the VBox, copy its URL (since it's a localized image, it's not static - with each re-install it changes)
 4. Open the IDE and open the project folder
 5. Navigate to the pom.xml file and install all required dependencies for the test run
@@ -17,6 +17,7 @@ Selenium tests on openCart demo page(vbox) on register/login/logout/, available 
 7. Run the test via the IDE
 
 #Tech used for these tests:
+Virtual machine : VirtualBox
 Programming language: Java
 Framework: Selenium WebDriver
 Automation tool for build-up of project dependencies / lifecycle: Maven
